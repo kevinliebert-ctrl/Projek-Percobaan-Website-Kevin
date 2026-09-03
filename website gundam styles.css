@@ -108,3 +108,35 @@ footer {
   padding: 15px;
   margin-top: 20px;
 }
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  article, aside {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+  }
+
+  header img {
+    width: 100%;
+    height: auto;
+  }
+
+  article img, aside img {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
